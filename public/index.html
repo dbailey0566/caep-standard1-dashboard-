@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CAEP Standard I Entry</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
+<h1>CAEP Standard I Advanced – Data Entry</h1>
+
+<div class="card">
+
+  <label>Program</label>
+  <select id="program">
+    <option>MAED Reading</option>
+    <option>MAED Ed Leadership</option>
+    <option>EdD</option>
+  </select>
+
+  <label>Standard</label>
+  <select id="standard">
+    <option>RA1.1</option>
+    <option>RA1.2</option>
+  </select>
+
+  <label>Six Skill</label>
+  <select id="skill">
+    <option>Data Literacy</option>
+    <option>Research Methods</option>
+    <option>Equity & Data Use</option>
+    <option>Collaboration</option>
+    <option>Technology</option>
+    <option>Professional Dispositions</option>
+  </select>
+
+  <label>Semester</label>
+  <input type="text" id="semester" placeholder="Spring 26">
+
+  <label>N</label>
+  <input type="number" id="n">
+
+  <label>% Met</label>
+  <input type="number" id="percent">
+
+  <button onclick="saveData()">Save Entry</button>
+
+</div>
+
+<br>
+<a href="dashboard.html">Go to Dashboard</a>
+
+<script type="module" src="js/dashboard.js"></script>
+
+</body>
+</html>
