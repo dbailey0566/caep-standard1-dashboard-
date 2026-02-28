@@ -3,12 +3,12 @@ import { getFirestore, collection, addDoc, getDocs }
 from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_BUCKET",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBKJvTK1oebLZPfi1-CmTndB4PtMiafWlI",
+  authDomain: "apsu-caep-standard1.firebaseapp.com",
+  projectId: "apsu-caep-standard1",
+  storageBucket: "apsu-caep-standard1.firebasestorage.app",
+  messagingSenderId: "331809115751",
+  appId: "1:331809115751:web:66d209169ef538a9a3cec2"
 };
 
 const app = initializeApp(firebaseConfig);
